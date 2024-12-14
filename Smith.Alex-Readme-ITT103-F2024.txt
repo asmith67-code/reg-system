@@ -10,12 +10,12 @@ This program is a menu driven application that manage a student course registrat
 2.Add courses with unique identifiers and fee
 3.Enroll students in courses
 4.Accept minimum payment of 40% and update remaining balances.
-5.Allow administrator o view registered, courses available, check individual student balances and enroll students in specific courses.
+5.Allow administrator to view registered, courses available, check individual student balances and enroll students in specific courses.
 
 HOW PROGRAM RUNS:
 1.The program runs by opening the py. file in a application that's support the file format (e.g.. python)
 
-2.Use the menu of the program to interact with the system by selecting the from the different menu options ranging from (1-9).
+2.Program has a menu interface to interact with the system by selecting the from the different menu options ranging from (1-9). Each menu option prompts the user to input information. The program checks the user input for validity and if the an input error has been discovered , the program with display the relevant error message for that specific user error input.
 
 ASSUMPTION
 1. Students and courses require a unique identifier
