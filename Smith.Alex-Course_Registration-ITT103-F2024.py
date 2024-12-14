@@ -86,7 +86,7 @@ class Registration: #Manages courses, students, enrollments, and payments.
         student= self.registered_students[student_id]
         print(f"Student {student.student_name} has a balance of ${student.balance}")
 
-    def show_courses(self):#Lists all registered students with details.
+    def show_courses(self):# Lists all courses currently available in the system.
         if not self.available_courses:
             print("no course has been added")
             return
